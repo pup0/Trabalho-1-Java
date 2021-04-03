@@ -37,7 +37,6 @@ class User {
 }
 
 
-
 class Conta {
   private int IdConta;
   private float Saldo;
@@ -101,7 +100,7 @@ class Transacao {
 }
 
 
-class Main {  
+class Main {
   public static void main(String args[]) { 
     User u1 = new User("Fabio", "123", "email@ermail");
     User u2 = new User("Bruno", "123", "email@ermail");
